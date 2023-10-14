@@ -1,0 +1,112 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: #333333da;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+}
+footer {
+    font-family: system-ui;
+    background-color: #333333da;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    background-color: #565656;
+}
+
+ul.social-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul.social-links li {
+    margin-bottom: 10px;
+}
+
+ul.social-links a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 250px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
+    text-align: center;
+    line-height: 40px; /* Vertically center text */
+    font-size: 20px;
+}
+a.facebook {
+    background-color: #0856ff; /* Facebook blue */
+    opacity: 0.7;
+}
+
+a.twitter {
+    background-color: #1da1f2; /* Twitter blue */
+    opacity: 0.7;
+}
+
+a.instagram {
+    background-color: #e4405f; /* Instagram pink */
+    opacity: 0.7;
+}
+
+a.reddit {
+    background-color: #ff4500; /* Reddit orange-red */
+    opacity: 0.7;
+}
+
+a.elakiri {
+    background-color: #007bff; /* Elakiri blue */
+    opacity: 0.7;
+}
+
+a.whatsapp {
+    background-color: #25d366; /* WhatsApp green */
+    opacity: 0.7;
+}
+a.telegram {
+    background-color: #26c4f0; /* WhatsApp green */
+    opacity: 0.7;
+}
+a.linkedin {
+    background-color: #010951; /* WhatsApp green */
+    opacity: 0.7;
+}
+
+body,header,footer {
+    margin: 0;
+    padding: 0;
+    background-image: url('img.jpeg'); /* Add this line */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#overlay img {
+    max-width: 80%;
+    max-height: 80%;
+}
